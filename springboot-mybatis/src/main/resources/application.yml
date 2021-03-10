@@ -34,13 +34,13 @@ logging:
 spring:
   profiles: dev
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/pos?serverTimezone=UTC&useSSL=false&autoReconnect=true&tinyInt1isBit=false&useUnicode=true&characterEncoding=utf8
+      url: jdbc:mysql://127.0.0.1:3306/pos?serverTimezone=UTC&useSSL=false&autoReconnect=true&tinyInt1isBit=false&useUnicode=true&characterEncoding=utf8&allowPublicKeyRetrieval=true
       username: root
-      password: 123456
+      password: Mimashi1q2w3e
 
 logging:
   level:
     ROOT: INFO
     com:
       xncoding: DEBUG
-  file: D:/logs/app.log
+  file: logs/app.log

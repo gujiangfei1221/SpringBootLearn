@@ -12,4 +12,6 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  */
 public interface UserMapper extends BaseMapper<User> {
 
+    //https://cloud.tencent.com/developer/article/1531517
+
 }
